@@ -1,0 +1,118 @@
+{
+  "d": [
+    {
+      "i": {
+        "height": 2880,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmVlODAyNTAtODc3Yi00MjFhLTk5MTktNWIwOTUzY2M2ZDc5XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "width": 1944
+      },
+      "id": "tt7631058",
+      "l": "The Lord of the Rings: The Rings of Power",
+      "q": "TV series",
+      "qid": "tvSeries",
+      "rank": 2,
+      "s": "Morfydd Clark, Ismael Cruz Cordova",
+      "y": 2022
+    },
+    {
+      "i": {
+        "height": 2936,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+        "width": 1978
+      },
+      "id": "tt0120737",
+      "l": "The Lord of the Rings: The Fellowship of the Ring",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 95,
+      "s": "Elijah Wood, Ian McKellen",
+      "y": 2001
+    },
+    {
+      "i": {
+        "height": 1185,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "width": 800
+      },
+      "id": "tt0167260",
+      "l": "The Lord of the Rings: The Return of the King",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 241,
+      "s": "Elijah Wood, Viggo Mortensen",
+      "y": 2003
+    },
+    {
+      "i": {
+        "height": 1500,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "width": 964
+      },
+      "id": "tt0167261",
+      "l": "The Lord of the Rings: The Two Towers",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 309,
+      "s": "Elijah Wood, Ian McKellen",
+      "y": 2002
+    },
+    {
+      "i": {
+        "height": 1500,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGMyNWJhZmYtNGQxYi00Y2ZjLWJmNjktNTgzZWJjOTg4YjM3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "width": 979
+      },
+      "id": "tt0077869",
+      "l": "The Lord of the Rings",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 2696,
+      "s": "Christopher Guard, William Squire",
+      "y": 1978
+    },
+    {
+      "i": {
+        "height": 503,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNWU1NjZiODktMjc4Ni00Yjg4LWEzMzUtNTJiMzM0ZDQ5NWYzXkEyXkFqcGdeQXVyMTMzNTYwMjAz._V1_.jpg",
+        "width": 755
+      },
+      "id": "tt14824600",
+      "l": "The Lord of the Rings: The War of the Rohirrim",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 4883,
+      "s": "Brian Cox, Miranda Otto",
+      "y": 2023
+    },
+    {
+      "i": {
+        "height": 1829,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjE1NGE5MTgtMTFlMi00OWY4LTk5ZmQtZjYxODkxZWFiZjhjXkEyXkFqcGdeQXVyMzIzNDU1NTY@._V1_.jpg",
+        "width": 1280
+      },
+      "id": "tt14575898",
+      "l": "Il signore delle formiche",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 7052,
+      "s": "Luigi Lo Cascio, Elio Germano",
+      "y": 2022
+    },
+    {
+      "i": {
+        "height": 1192,
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDczN2I3NzItNjdlMS00YmNhLTkyODQtZGI1YWQ0NmViMTgwXkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg",
+        "width": 800
+      },
+      "id": "tt0100054",
+      "l": "Lord of the Flies",
+      "q": "feature",
+      "qid": "movie",
+      "rank": 4921,
+      "s": "Balthazar Getty, Chris Furrh",
+      "y": 1990
+    }
+  ],
+  "q": "the%20lord",
+  "v": 1
+}
