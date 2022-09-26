@@ -1,4 +1,7 @@
 function App() {
+
+  console.debug('App.tsx', process.env.REACT_APP_ENV);
+
   return (
     <div className="flex flex-col items-center justify-center h-screen text-red-300 bg-gradient-to-br from-gray-300 via-teal-700 to-gray-800">
       <div className="flex items-center animate-bounce">

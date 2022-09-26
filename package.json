@@ -11,6 +11,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "autoprefixer": "^10.4.12",
+    "env-cmd": "^10.1.0",
     "postcss": "^8.4.16",
     "postcss-cli": "^9.1.0",
     "postcss-preset-env": "^7.8.2",
@@ -21,8 +22,10 @@
     "typescript": "^4.8.3"
   },
   "scripts": {
-    "start": "react-scripts start -p 3010",
-    "build": "react-scripts build",
+    "dev": "env-cmd -e GLOBAL,LOCAL react-scripts start",
+    "start": "set PORT=3010 && serve -s build",
+    "build:PROD": "env-cmd -e GLOBAL,PROD react-scripts build",
+    "build:DEV": "env-cmd -e GLOBAL,DEV react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
