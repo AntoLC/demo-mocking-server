@@ -4,14 +4,14 @@ import { optionsRapidAPI } from "./conf";
 import { IDataIMDB, IIMDB } from "./types/IMDB";
 
 function App() {
-  console.debug("App.tsx", process.env);
-
   const [titleMovie, setTitleMovie] = useState("");
   const [movies, setMovies] = useState<IDataIMDB[]>([]);
 
   useEffect(() => {
-    console.debug("titleMovie", titleMovie);
+    console.debug("App.tsx", process.env);
+  }, []);
 
+  useEffect(() => {
     if (!titleMovie) return;
 
     const timeout = setTimeout(() => {
@@ -22,7 +22,6 @@ function App() {
         .then((response) => response.json())
         .then((response: IIMDB) => {
           setMovies(response.d.slice(1));
-          console.log(response.d.slice(1));
         })
         .catch((err) => console.error(err));
     }, 2000);
@@ -40,6 +39,7 @@ function App() {
         type="text"
         value={titleMovie}
         onChange={(event) => setTitleMovie(event.target.value)}
+        placeholder="Search a movie or an actor"
       />
       <section className="mt-10 py-10 px-12 w-10/12">
         <div className="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

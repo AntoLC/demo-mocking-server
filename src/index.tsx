@@ -5,7 +5,7 @@ import * as serviceWorker from "./serviceWorker";
 import React from "react";
 import { worker } from "./mocks/browser";
 
-if (process.env.REACT_APP_API_MOCK) {
+if (process.env.REACT_APP_API_MOCK === "true") {
   worker.start();
 }
 
