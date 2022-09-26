@@ -25,6 +25,7 @@
     "dev": "env-cmd -e GLOBAL,LOCAL react-scripts start",
     "start": "set PORT=3010 && serve -s build",
     "build": "env-cmd -e GLOBAL,PROD react-scripts build",
+    "build:PR": "env-cmd -e GLOBAL,PR react-scripts build",
     "build:PROD": "env-cmd -e GLOBAL,PROD react-scripts build",
     "build:DEV": "env-cmd -e GLOBAL,DEV react-scripts build",
     "test": "react-scripts test",
