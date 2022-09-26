@@ -43,24 +43,26 @@ function App() {
       />
       <section className="mt-10 py-10 px-12 w-10/12">
         <div className="grid grid-flow-row gap-8 text-neutral-600 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {movies.map((movie) => (
-            <div
-              key={movie.id}
-              className="flex flex-col items-center justify-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg"
-            >
-              <img
-                className="w-32 h-32 rounded-full"
-                src={movie.i.imageUrl}
-                alt={movie.l}
-              />
-              <h2 className="mt-2 text-lg font-semibold text-center text-gray-800 dark:text-white">
-                {movie.l}
-              </h2>
-              <p className="mt-1 text-sm text-center text-gray-500 dark:text-gray-400">
-                {movie.s}
-              </p>
-            </div>
-          ))}
+          {movies.map((movie) =>
+            movie.i ? (
+              <div
+                key={movie.id}
+                className="flex flex-col items-center justify-center p-4 bg-white dark:bg-gray-800 rounded-lg shadow-lg"
+              >
+                <img
+                  className="w-32 h-32 rounded-full"
+                  src={movie.i.imageUrl || ""}
+                  alt={movie.l}
+                />
+                <h2 className="mt-2 text-lg font-semibold text-center text-gray-800 dark:text-white">
+                  {movie.l}
+                </h2>
+                <p className="mt-1 text-sm text-center text-gray-500 dark:text-gray-400">
+                  {movie.s}
+                </p>
+              </div>
+            ) : null
+          )}
         </div>
       </section>
     </div>

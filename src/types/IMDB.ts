@@ -5,7 +5,7 @@ export interface IIMDB {
 }
 
 export interface IDataIMDB {
-  i: IImageIMDB;
+  i?: IImageIMDB;
   id: string;
   l: string;
   s: string;
@@ -17,7 +17,7 @@ export interface IDataIMDB {
 }
 
 export interface IImageIMDB {
-  height: number;
-  imageUrl: string;
-  width: number;
+  height?: number;
+  imageUrl?: string;
+  width?: number;
 }
