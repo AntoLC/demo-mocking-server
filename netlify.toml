@@ -1,0 +1,4 @@
+[context.deploy-preview]
+  command = "npm run build:PR"
+  [context.deploy-preview.environment]
+    REACT_APP_ENV = "PR"
