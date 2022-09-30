@@ -34,6 +34,7 @@ function App() {
       <div className="flex items-center">
         <Logo width={"300px"} />
       </div>
+      <p>Search a movie or an actor</p>
       <input
         className="border border-gray-200 rounded p-2 mt-1"
         type="text"
