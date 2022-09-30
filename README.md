@@ -1,22 +1,15 @@
-# cra-template-tailwindcss-typescript
+# Demo Mocking API
 
-A streamlined [Tailwind CSS v3.1](https://tailwindcss.com) template for [Create React App](https://github.com/facebook/create-react-app) in [TypeScript](https://www.typescriptlang.org/).
+## Description
 
-> This template installs and sets up [Tailwind CSS](https://tailwindcss.com) with TypeScript support.
+Demo to show how to mock an API in development.  
+In the main branch, we will use the real API, but in development branch, we will use the mocking API.  
+https://thunderous-gaufre-fa2686.netlify.app/
 
-## Usage
+## We will use
 
-```bash
-npx create-react-app --template tailwindcss-typescript
-```
-
-## Credits
-
-This project was made possible thanks to the following projects.
-
-1. [GeoffSelby/cra-template-tailwindcss](https://github.com/GeoffSelby/cra-template-tailwindcss) - A streamlined Tailwind CSS template for Create React App (in JavaScript).
-2. [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - An official TypeScript template for create-react-app.
-
-## License
-
-MIT © [Sung M. Kim](https://sung.codes)
+Host: [Netlify](https://www.netlify.com/)  
+Pipeline: Netlify and Github  
+Mocking API: [msw](https://mswjs.io/)  
+React: create-react-app  
+API: [RapidAPI IMDB](https://rapidapi.com/apidojo/api/imdb8/)
